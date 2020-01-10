@@ -39,6 +39,7 @@ body h2, body h3 {
   width: 100%;
   border-radius: 0;
   border-bottom: 1px solid red;
+  z-index: 1000;
 }
 
 .navbar p {
@@ -163,7 +164,7 @@ body h2, body h3 {
 
 /* Contact*/
 .contact {
-  border: 2px solid rgb(70, 80, 240);
+  border: 1px solid rgb(70, 80, 240);
   margin-top: 0;
   background-color: lightgray;
   color: black;
