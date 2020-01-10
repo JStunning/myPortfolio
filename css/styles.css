@@ -94,5 +94,10 @@ body {
 
 .projects .card .card-img-top {
   width: 100%;
+  height: 30%;
   border-bottom: 1px solid red;
+}
+
+.projects .card .btn {
+  margin-bottom: 10px;
 }
