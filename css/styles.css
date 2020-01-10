@@ -143,6 +143,7 @@ body p {
 .projects .card {
   border: 2px solid rgb(70, 80, 240);
   margin: 50px;
+
 }
 
 .projects .card .card-img-top {
@@ -186,7 +187,7 @@ body p {
   margin-right: 100px;
 }
 
-#interests {
+#interestsText {
   border-bottom: 1px solid red;
   margin-left: 100px;
   margin-right: 100px;
@@ -217,4 +218,9 @@ body p {
 
 .contact img {
   width: 25px;
+}
+
+#upArrow {
+  margin-top: 0;
+  padding-top: 0;
 }
