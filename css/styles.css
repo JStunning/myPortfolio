@@ -63,6 +63,18 @@ body {
 .about {
   border: 1px solid red;
   margin-top: 0;
-  text-align: center;
   background-color: lightgray;
+  color: black;
+}
+
+#aboutTop {
+  text-align: center;
+}
+
+.about .row {
+  margin-left: 100px;
+}
+
+.about h3 {
+  margin-left: 50px;
 }
