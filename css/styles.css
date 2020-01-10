@@ -12,6 +12,16 @@ body h2, body h3 {
   text-shadow: 1px 1px red;
 }
 
+.btn {
+  background-color: red;
+  color: white;
+  text-decoration: none;
+  border: 2px solid blue;
+  border-radius: 0;
+  border-top: none;
+  border-left: none;
+}
+
 /* Container */
 .container {
   border: 25px solid black;
@@ -170,4 +180,8 @@ body h2, body h3 {
 
 .contact li {
   display: inline;
+}
+
+.contact img {
+  width: 25px;
 }
