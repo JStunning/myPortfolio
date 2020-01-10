@@ -45,8 +45,7 @@ body {
 }
 
 .jumbotron h1 {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-weight: 700;
+  font-family: sans-serif;
   color: black;
 }
 
@@ -77,4 +76,23 @@ body {
 
 .about h3 {
   margin-left: 50px;
+}
+
+/* Projects */
+.projects {
+  border: 1px solid red;
+  margin-top: 0;
+  background-color: lightgray;
+  color: black;
+  text-align: center;
+}
+
+.projects .card {
+  border: 1px solid red;
+  margin: 50px;
+}
+
+.projects .card .card-img-top {
+  width: 100%;
+  border-bottom: 1px solid red;
 }
