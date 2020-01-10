@@ -13,19 +13,20 @@ body {
   border-radius: 0;
 }
 
-#navbert li {
-  padding-top: 100px;
-}
-
 .navbar p {
   color: white;
   text-align: center;
   padding-top: 10px;
 }
 
+.navbar ul {
+  padding-top: 10px;
+}
+
 .navbar li {
   list-style: none;
   display: inline;
+  padding-right: 5px;
 }
 
 .navbar a {
