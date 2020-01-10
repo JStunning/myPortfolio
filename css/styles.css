@@ -13,6 +13,11 @@ body h2, body h3 {
   padding-top: 50px;
 }
 
+body p {
+  font-family: serif;
+  font-weight: 500;
+}
+
 .btn {
   background-color: red;
   color: white;
@@ -109,6 +114,15 @@ body h2, body h3 {
   margin-left: 50px;
 }
 
+.about p {
+  font-size: 16px;
+}
+
+.about li {
+  font-size: 16px;
+  font-weight: 600;
+}
+
 /* Projects */
 .projects {
   border: 2px solid rgb(70, 80, 240);
@@ -116,6 +130,10 @@ body h2, body h3 {
   background-color: lightgray;
   color: black;
   text-align: center;
+}
+
+.projects p {
+  font-size: 16px;
 }
 
 .projects .card {
@@ -140,6 +158,11 @@ body h2, body h3 {
   background-color: lightgray;
   color: black;
   text-align: center;
+}
+
+.interests p {
+  font-size: 16px;
+  padding-bottom: 10px;
 }
 
 .interests img {
@@ -169,6 +192,7 @@ body h2, body h3 {
 .contact {
   border: 1px solid rgb(70, 80, 240);
   margin-top: 0;
+  padding-top: 0;
   background-color: lightgray;
   color: black;
 }
