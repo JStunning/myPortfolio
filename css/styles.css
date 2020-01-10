@@ -6,9 +6,18 @@ body {
   margin: 0;
   padding: 0;
 }
+
+body h2, body h3 {
+  font-family: monospace;
+  text-shadow: 1px 1px red;
+}
+
 /* Container */
 .container {
-  border: 5px solid red;
+  border: 25px solid black;
+  border-bottom: 2px solid black;
+  padding: 10px;
+  padding-bottom: 0;
 }
 
 /* Nav bar*/
@@ -46,8 +55,8 @@ body {
 
 /* Jumbotron */
 .jumbotron {
-  margin-top: 40px;
-  border: 2px solid blue;
+  margin-top: 0px;
+  border: 2px solid rgb(70, 80, 240);
   text-align: center;
   margin-bottom: 0;
 }
@@ -68,7 +77,7 @@ body {
 
 /* About */ 
 .about {
-  border: 2px solid blue;
+  border: 2px solid rgb(70, 80, 240);
   margin-top: 0;
   background-color: lightgray;
   color: black;
@@ -88,7 +97,7 @@ body {
 
 /* Projects */
 .projects {
-  border: 2px solid blue;
+  border: 2px solid rgb(70, 80, 240);
   margin-top: 0;
   background-color: lightgray;
   color: black;
@@ -96,14 +105,14 @@ body {
 }
 
 .projects .card {
-  border: 2px solid blue;
+  border: 2px solid rgb(70, 80, 240);
   margin: 50px;
 }
 
 .projects .card .card-img-top {
   width: 100%;
   height: 30%;
-  border-bottom: 2px solid blue;
+  border-bottom: 2px solid rgb(70, 80, 240);
 }
 
 .projects .card .btn {
@@ -112,8 +121,7 @@ body {
 
 /* Interests */
 .interests {
-  border: 2px solid blue;
-  border-bottom: none;
+  border: 2px solid rgb(70, 80, 240);
   margin-top: 0;
   background-color: lightgray;
   color: black;
@@ -122,4 +130,44 @@ body {
 
 .interests img {
   width: 600px;
+  margin: 10px;
+}
+
+#videogames {
+  border-bottom: 1px solid red;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#research {
+  border-bottom: 1px solid red;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#interests {
+  border-bottom: 1px solid red;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+/* Contact*/
+.contact {
+  border: 2px solid rgb(70, 80, 240);
+  margin-top: 0;
+  background-color: lightgray;
+  color: black;
+}
+
+.contact h2 {
+  text-align: center;
+}
+
+.contact ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+.contact li {
+  display: inline;
 }
