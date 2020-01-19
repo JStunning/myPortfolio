@@ -14,6 +14,8 @@ it can also be viewed on Github Pages}_
 * _Download from github_
 * _Open in any broswer_
 
+github-pages links: https://jackstunning.github.io/myPortfolio/
+
 ## Known Bugs
 
 _{The github pages page sometimes said page not found but seems to be fine now}_
